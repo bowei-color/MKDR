@@ -1,6 +1,6 @@
 # MKDR
 
-`MKDR`(Modality-incomplete and Knowledge distillation for Drug Response Prediction) is a deep learning model designed to address the challenge of modality missingness, enabling accurate prediction of cellular drug responses even when only partial omics data are available. The model leverages a multi-omics Transformer encoder to extract cellular features, completes missing modalities via a variational autoencoder, and enhances robustness and generalization in real-world clinical settings through a teacher–student distillation framework. Additionally, it incorporates a cross-modal attention mechanism to focus on key biological signals, achieving a balance between predictive performance and interpretability.
+`MKDR` (Modality-incomplete and Knowledge distillation for Drug Response Prediction) is a deep learning model designed to address the challenge of modality missingness, enabling accurate prediction of cellular drug responses even when only partial omics data are available. The model leverages a multi-omics Transformer encoder to extract cellular features, completes missing modalities via a variational autoencoder, and enhances robustness and generalization in real-world clinical settings through a teacher–student distillation framework. Additionally, it incorporates a cross-modal attention mechanism to focus on key biological signals, achieving a balance between predictive performance and interpretability.
 
 ![Fig1 Image](Fig1.jpg "Figure 1: Description of the image")
 
